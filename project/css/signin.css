@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../Assets/Images/background.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 500px;
+    background: transparent;
+    color: #000000;
+    height: 500px;
+
+}
+
+.wrapper h2 {
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.wrapper .inputBox {
+
+    width: 90%;
+    height: 50px;
+    margin: 30px 10px;
+
+}
+.wrapper .inputBox span{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #000308;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.inputBox input {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #09202c;
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border:  1px solid #607d8b ;
+    outline: 1px solid #607d8b;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    /* margin-left: 1px; */
+
+}
+section .wrapper .inputBox input[type="submit"]{
+    background: rgb(48, 44, 8);
+    color: #eef1f3;
+    border: none;
+    font-size: medium;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.signupBox{
+    margin: 35px 130px;
+}
